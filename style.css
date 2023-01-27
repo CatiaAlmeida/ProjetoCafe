@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+html {
+    font-size: 1rem;
+  }
+  
+  .fazer__pedido {
+    width: 10rem;
+  }
+  
+  .image__banner {
+    object-fit: cover;
+  }
+  
+  .card {
+    border: 1px solid #edebe9 !important;
+    border-radius: 1em !important;
+  }
+  
+  main,
+  nav {
+    background: #f6f5fb !important;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    html {
+      font-size: 0.8rem;
+    }
+  } 
+
+  .card-text {
+    text-align: justify;
+  }
+
+  .btn-secondary {
+    font-weight: bold !important;
+    text-align: center !important;
+    /* background-color: white !important; */
+    border: white !important;
+    border-color: none !important;
+     }
+
+     #bot , #bot2, #bot3, #bot4 {
+        background-color: white;
+     }
+  /* #submit {
+    opacity: 0.4;
+  } */
+
+  /* .btn-secondary:hover{
+    background-color: #2A3342 !important;
+  } */
+
+
+  h1 {
+    text-align: center !important;
+    font-family: 'Montserrat';
+  }
+
+  
+  .rodape-modal {
+    color:#F6F5FB !important;
+    text-align: center;
+  }
+
+
+  .conteudo-modal{
+    margin: 0 auto;
+    margin-top: 6%;
+    max-width: 700px;
+    height: 500px;
+    background-color: #FFFFFF;
+    color:#000000;
+    border-radius: 20px;
+  }
+
+ 
+  .corpo-modal{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .cabecalho-modal{
+    padding: 10px 15px;
+    text-align: right;
+    
+  }
+
+  .cabecalho-modal-fechar {
+    cursor: pointer;
+  }
+
+  #botao {
+    border-radius: 5px !important;
+    background-color: #2A3342;
+    color: #F6F5FB;
+    margin-top: 10%;
+    height: 32px;
+    width: 200px;
+  }
